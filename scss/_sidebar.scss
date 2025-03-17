@@ -51,7 +51,10 @@
         transition: .2s;
         cursor: pointer;
         }
-        &:hover{
-            color: $sidebar-text-active;
+        span,a{
+            transition: .2s;
+            &:hover{
+                color: $sidebar-text-active;
+            }
         }
     }
