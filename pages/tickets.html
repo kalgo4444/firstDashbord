@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Tickets</title>
     <link rel="stylesheet" href="../css/main.min.css">
+    <link rel="icon" href="../images/Logo.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -70,6 +71,7 @@
                 </div>
             </header>
             <div class="content__inner">
+                <!-- head  -->
                 <div class="content__tophead">
                     <span>Tickets</span>
                     <div class="content__btn-head">
@@ -77,17 +79,180 @@
                         <img src="../images/headIco2.svg" alt="">
                     </div>
                 </div>
+                <!-- body  -->
                 <div class="content__table">
-                    <p>All tickets</p>
-                    <table>
+                    <p class="content__table__title">All tickets</p>
+                    <table class="content__table__tableWrapper">
                         <thead>
-                            <tr>
-                                <th>Ticket details</th>
-                                <th>Ticket details</th>
-                                <th>Ticket details</th>
-                                <th>Ticket details</th>
+                            <tr class="content__table__tr">
+                                <th class="content__table__th">Ticket details</th>
+                                <th class="content__table__th">Customer name</th>
+                                <th class="content__table__th">Date</th>
+                                <th class="content__table__th">Priority</th>
                             </tr>
                         </thead>
+                        <tbody>
+                            <tr class="content__table__tr">
+                                <td class="content__table__td">
+                                    <img src="../images/m 5.png" alt="">
+                                    <div>
+                                        <p>Contact Email not Linked</p>
+                                        <p>Updated 1 day ago</p>
+                                    </div>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>Tom Cruise</p>
+                                        <p>on 24.05.2019</p>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>May 26, 2019</p>
+                                        <p>6:30 PM</p>
+                                </td>
+                                <td class="content__table__td">
+                                    <span>High</span>
+                                </td>
+                            </tr>
+                            <tr class="content__table__tr">
+                                <td class="content__table__td">
+                                    <img src="../images/w 5.png" alt="">
+                                    <div>
+                                        <p>Adding Images to Featured Posts</p>
+                                        <p>Updated 1 day ago</p>
+                                    </div>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>Matt Damon</p>
+                                        <p>on 24.05.2019</p>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>May 26, 2019</p>
+                                        <p>6:30 PM</p>
+                                </td>
+                                <td class="content__table__td">
+                                    <span>Low</span>
+                                </td>
+                            </tr>
+                            <tr class="content__table__tr">
+                                <td class="content__table__td">
+                                    <img src="../images/w 3.png" alt="">
+                                    <div>
+                                        <p>Adding Images to Featured Posts</p>
+                                        <p>Updated 1 day ago</p>
+                                    </div>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>Matt Damon</p>
+                                        <p>on 24.05.2019</p>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>May 26, 2019</p>
+                                        <p>6:30 PM</p>
+                                </td>
+                                <td class="content__table__td">
+                                    <span>High</span>
+                                </td>
+                            </tr>
+                            <tr class="content__table__tr">
+                                <td class="content__table__td">
+                                    <img src="../images/m 7.png" alt="">
+                                    <div>
+                                        <p>Adding Images to Featured Posts</p>
+                                        <p>Updated 1 day ago</p>
+                                    </div>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>Matt Damon</p>
+                                        <p>on 24.05.2019</p>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>May 26, 2019</p>
+                                        <p>6:30 PM</p>
+                                </td>
+                                <td class="content__table__td">
+                                    <span>Normal</span>
+                                </td>
+                            </tr>
+                            <tr class="content__table__tr">
+                                <td class="content__table__td">
+                                    <img src="../images/m 6.png" alt="">
+                                    <div>
+                                        <p>Adding Images to Featured Posts</p>
+                                        <p>Updated 1 day ago</p>
+                                    </div>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>Matt Damon</p>
+                                        <p>on 24.05.2019</p>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>May 26, 2019</p>
+                                        <p>6:30 PM</p>
+                                </td>
+                                <td class="content__table__td">
+                                    <span>High</span>
+                                </td>
+                            </tr>
+                            <tr class="content__table__tr">
+                                <td class="content__table__td">
+                                    <img src="../images/m 4.png" alt="">
+                                    <div>
+                                        <p>Adding Images to Featured Posts</p>
+                                        <p>Updated 1 day ago</p>
+                                    </div>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>Matt Damon</p>
+                                        <p>on 24.05.2019</p>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>May 26, 2019</p>
+                                        <p>6:30 PM</p>
+                                </td>
+                                <td class="content__table__td">
+                                    <span>Normal</span>
+                                </td>
+                            </tr>
+                            <tr class="content__table__tr">
+                                <td class="content__table__td">
+                                    <img src="../images/w 6.png" alt="">
+                                    <div>
+                                        <p>Adding Images to Featured Posts</p>
+                                        <p>Updated 1 day ago</p>
+                                    </div>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>Matt Damon</p>
+                                        <p>on 24.05.2019</p>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>May 26, 2019</p>
+                                        <p>6:30 PM</p>
+                                </td>
+                                <td class="content__table__td">
+                                    <span>Low</span>
+                                </td>
+                            </tr>
+                            <tr class="content__table__tr">
+                                <td class="content__table__td">
+                                    <img src="../images/w 7.png" alt="">
+                                    <div>
+                                        <p>Adding Images to Featured Posts</p>
+                                        <p>Updated 1 day ago</p>
+                                    </div>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>Matt Damon</p>
+                                        <p>on 24.05.2019</p>
+                                </td>
+                                <td class="content__table__td">
+                                        <p>May 26, 2019</p>
+                                        <p>6:30 PM</p>
+                                </td>
+                                <td class="content__table__td">
+                                    <span>Normal</span>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
