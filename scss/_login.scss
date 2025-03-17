@@ -31,16 +31,16 @@
                 box-shadow: 0 2px 5px #0009;
             }
         }
-        button{
-            margin: 20px auto;
+        a{
             width: 80%;
-            background: $bg-color-second;
             padding: 20px 0;
+            margin: 30px auto;
+            background: $bg-color-second;
             font-size: 20px;
-            color: #000;
+            text-transform: uppercase;
+            text-align: center;
             border-radius: 10px;
-            transition: .2s;
-            &:hover{
+            &:active{
                 outline: 1px solid;
                 box-shadow: 0 2px 5px #0009;
             }
